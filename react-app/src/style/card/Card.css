@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 180px;
+  height: max-content;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  display: inline-block;
+}
+.cardName {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.cardJob {
+  margin-top: 5px;
+}
